@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex items-center space-x-4 text-sm text-gray-400">
-            <span>Built with React & Tailwind CSS</span>
+{/*             <span>Built with React & Tailwind CSS</span> */}
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
